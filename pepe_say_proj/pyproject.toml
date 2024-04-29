@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "Pepe_say"
+version = "0.1.0"
+description = "A fun module to display messages in a Pepe the Frog ASCII art dynamic-bubble."
+authors = ["Vedant Bhatt <vedantbhatt30@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.scripts]
+Pepe_say = 'Pepe_say.__main__:main'
