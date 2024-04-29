@@ -1,0 +1,12 @@
+This is just 'initializing file' or we can say dummy-file ...
+that i have to made for initializing folder with 'pepe_say_proj' name which is 
+also the name of project direcotory where we save 'pyproject.toml' file , [initialized python virtual environment by name 'pepeenv'; which we're not going to upload here for obvious reasons].
+it also contains module file with name 'pepe_say' where we saved 'pepesay_module.py' and '__main__.py' files which are source code files of module.
+its alos contains 'dist' file which is generated automatically once we run command 'poetry build' in respective project directory.
+  this 'dist 'file contains executable python-wheel file corrrsponds to pepe_say package and pepe_say.tar file which contains package information in details.
+  
+its also contains 'poetry.lock' file generated automatically once we run command 'poetry lock'
+ this 'poetry.lock' files used to  serves as a record of all the exact versions of the dependencies used in a project during installation, 
+  removal, or updating of any dependency. It ensures that your project uses the correct versions of dependencies by listing all the packages, 
+   their exact versions, and the hashes of their source files (that in our case mentioned in 'pyproject.toml' file.)
+   
